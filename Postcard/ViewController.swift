@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var enviarBoton: UIButton!
     
+    @IBOutlet weak var messageLabbel2: UILabel!
    
     
 
@@ -37,6 +38,12 @@ class ViewController: UIViewController {
         tuMensajeTextField.text = ""
         tuMensajeTextField.resignFirstResponder()
         enviarBoton.setTitle("Mensaje enviado", forState: UIControlState.Normal)
+        messageLabbel2.hidden = false
+        messageLabbel2.text = ponNombreTextField.text
+        messageLabbel2.textColor = UIColor.blueColor()
+        ponNombreTextField.text = ""
+        ponNombreTextField.resignFirstResponder()
+        
         
         
     }

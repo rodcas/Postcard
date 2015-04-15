@@ -104,6 +104,15 @@
                                     <rect key="frame" x="16" y="72" width="314" height="62"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZw-WC-KPH">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="156" width="206" height="46"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="k79-y2-fLz"/>
                                 <exclude reference="L1Y-li-B9c"/>
                                 <exclude reference="rzQ-CS-ZHq"/>
+                                <exclude reference="nZw-WC-KPH"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,11 +132,13 @@
                                 <include reference="k79-y2-fLz"/>
                                 <include reference="L1Y-li-B9c"/>
                                 <include reference="rzQ-CS-ZHq"/>
+                                <include reference="nZw-WC-KPH"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
                         <outlet property="enviarBoton" destination="L1Y-li-B9c" id="NSw-OE-oXs"/>
+                        <outlet property="messageLabbel2" destination="nZw-WC-KPH" id="y8h-S4-loF"/>
                         <outlet property="messageLabel" destination="rzQ-CS-ZHq" id="qfj-gw-36c"/>
                         <outlet property="ponNombreTextField" destination="3hc-mB-7yI" id="3u6-b7-kpr"/>
                         <outlet property="tuMensajeTextField" destination="k79-y2-fLz" id="E6Y-tt-HRf"/>
@@ -134,7 +146,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1197" y="248"/>
+            <point key="canvasLocation" x="1233" y="248"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0F8-GL-aFn">
